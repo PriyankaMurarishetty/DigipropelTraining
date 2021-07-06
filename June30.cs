@@ -44,6 +44,9 @@ namespace Assignment3
             int length = str1.Length;
             Console.WriteLine("the length of the input string is:" + length);
         }
+        /*input:
+        awesome
+        output:the length of input string is :7 */
         /*5.program to find number of words in a string*/
         public void Wordsnum()
         {
@@ -62,6 +65,9 @@ namespace Assignment3
             Console.WriteLine("The number of words in the string are:" + number);
 
         }
+        /*input:a beautiful morning
+        output:number of words in the string are:3 */
+        
         /*6.program to find  the position of a particular word*/
         public void Positionstr()
         {
@@ -76,6 +82,9 @@ namespace Assignment3
         {
             return Array.IndexOf(text.Split(' '), word) + 1;
         }
+        /* input:jack nd jill went up the hill
+        positon of word jill
+        output:3*/
         /*7.program to convert first letter of a word to uppercase*/
         public void Uppercase()
         {
@@ -89,6 +98,8 @@ namespace Assignment3
         {
             return string.Join(" ", message.Split(' ').Select(message => char.ToUpper(message[0]) + message.Substring(1)));
         }
+        /*input:family
+        output:Family*/
         /*8.program to alternate each letter*/
         public void Alternate()
         {
@@ -116,7 +127,8 @@ namespace Assignment3
             }
             result = result.Replace(" ", " ");
             return result;
-        }
+        }/*input:digipropel
+        output:DiGiPrOpEl*/
         /*9.program to reverse the string of even length*/
         public void Reverse()
         {
@@ -129,7 +141,8 @@ namespace Assignment3
         {
             return string.Join(" ", str2.Split(' ').Select(str2 => str2.Length % 2 != 0 ? str2 : new string(str2.Reverse().ToArray())));
 
-        }
+        }/*input:big tree
+        output:big eert*/
         /*1. program for enum*/
         enum days { Sun, Mon, Tue, Wed, Thur, Fri, Sat }
         public void Enumprogram()
