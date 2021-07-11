@@ -15,6 +15,7 @@ namespace Assignment2
         Console.WriteLine("enter the number of elemnets into the array to find duplicate");
             s1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("enter the elments into the array");
+            //initializing array elements
             for(i=0;i<s1;i++)
             {
                 Console.WriteLine("input elements :");
@@ -26,6 +27,7 @@ namespace Assignment2
                 arr2[i] = arr1[i];
                 arr3[i] = 0;
             }
+            //checking for duplicate elements.
 for (i = 0; i < s1; i++)
 {
     for (j = 0; j < s1; j++)
@@ -38,6 +40,7 @@ for (i = 0; i < s1; i++)
     }
     dup = 1;
 }
+            //counting the  number of duplicate elements
 for (i = 0; i < s1; i++)
 {
     if (arr3[i] == 2)
@@ -50,4 +53,6 @@ Console.WriteLine("the count of duplicate numbers:" + count);
                 }
             }
         }
+/*input:array elements{1,2,3,4,3,5}
+output:count od duplicate numbers:1
    
