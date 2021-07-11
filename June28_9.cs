@@ -14,6 +14,7 @@ namespace Assignment2
             Console.WriteLine("enter the number of elements into array");
             n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("enter the elements into the array:");
+            //initilaizing array elements
             for(i=0;i<n;i++)
             {
                 Console.WriteLine("elements:");
@@ -21,12 +22,14 @@ namespace Assignment2
                 fr1[i] = -1;
               
             }
+            //displaying array elements
             Console.WriteLine("the input elements n the array are:");
             for(i=0;i<n;i++)
             {
                 Console.WriteLine(arr1[i]);
                 
             }
+            //checking for duplicate numbers and frequency
             for(i=0;i<n;i++)
             {
                 count = 1;
@@ -44,6 +47,7 @@ namespace Assignment2
                 }
               
             }
+            //displaying the frequency of elements
             Console.WriteLine("the frequency of all elements in the array:");
             for (i = 0; i < n; i++)
             {
@@ -56,4 +60,9 @@ namespace Assignment2
             }
         }
     }
+/*input:array elements{1,2,2,3,3,4}
+ouput: 1 occurs 1  time
+       2 occurs 2 times
+       3 occurs 2 times
+       4 occurs 1 time
 
