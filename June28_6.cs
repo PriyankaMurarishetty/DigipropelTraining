@@ -51,5 +51,5 @@ namespace Assignment2
 
         }
 /*input:array elements{60,5,4,77,20}
-output:the input elements in ascending order 4,5,20,60,77
+output:the input elements in ascending order 4,5,20,60,77  */
     
