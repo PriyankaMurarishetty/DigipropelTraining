@@ -11,11 +11,13 @@ namespace Assignment2
             Console.WriteLine("enter the number of elements into the array to find sum");
             n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("enter the input elemnets into the array");
+            //initializing array elements.
             for (i = 0; i < n; i++)
             {
                 Console.WriteLine("elements : ");
                 arr1[i] = Convert.ToInt32(Console.ReadLine());
             }
+            //calculating sum of elements in array
             for (i = 0; i < n; i++)
             {
                 sum = sum + arr1[i];
@@ -46,3 +48,5 @@ namespace Assignment2
         }
     }
 }
+/*input:array element{0,1,2,3,4}
+ouput: sum=10*/
