@@ -40,4 +40,4 @@ namespace Assignment2
 }
 /*input:array elements{3,45,0,8,77}
 output:maximum numnber=77
-       minimum number=0
+       minimum number=0   */
