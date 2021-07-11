@@ -54,5 +54,5 @@ Console.WriteLine("the count of duplicate numbers:" + count);
             }
         }
 /*input:array elements{1,2,3,4,3,5}
-output:count od duplicate numbers:1
+output:count od duplicate numbers:1  */
    
