@@ -13,6 +13,7 @@ namespace Assignment2
             Console.WriteLine("enter the length the array to find the reverse");
             n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("enter the elements into the array");
+            //initializing array elements
             for (i = 0; i < n; i++)
             {
                 Console.WriteLine("elements :");
@@ -23,6 +24,7 @@ namespace Assignment2
             {
                 Console.WriteLine(brr1[i]);
             }
+            //reversing the array elements
             Console.WriteLine("the reverse array is");
             for (i = n-1; i>=0; i--)
             {
@@ -31,5 +33,6 @@ namespace Assignment2
         }
     }
 }
-
+/*input:array elements{2,3,4,5,6}
+  output:the reverse array is{6,5,4,3,2}
 
