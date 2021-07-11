@@ -20,6 +20,7 @@ namespace Assignment2
             Console.WriteLine("enter the number of column in second matrix");
             c2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the elements into first matrix");
+            //initializing first matrix elements
             for (i = 0; i < r1; i++)
             {
                 for (j = 0; j < c1; j++)
@@ -29,6 +30,7 @@ namespace Assignment2
 
                 }
             }
+            //display the first matrix elements
             Console.WriteLine("the first matix is:");
             for (i = 0; i < r1; i++)
             {
@@ -39,6 +41,7 @@ namespace Assignment2
 
                 }
             }
+            //initializing second matrix elements
             Console.WriteLine("enter the elements into second matrix ");
             for (i = 0; i < r2; i++)
 
@@ -50,6 +53,7 @@ namespace Assignment2
                     arr2[i,j] = Convert.ToInt32(Console.ReadLine());
                 }
             }
+            //displaying second matrix elements
 
             Console.WriteLine("the second matrix is :");
             for (i = 0; i < r2; i++)
@@ -61,6 +65,7 @@ namespace Assignment2
 
                 }
             }
+            //checking for matrix size
             if (r1 != r2 && c1 != c2)
             {
                 Console.WriteLine("the matrices cannot be compared");
@@ -70,7 +75,7 @@ namespace Assignment2
             {
                 {
                     Console.WriteLine("the matrices can be compared");
-
+         //checking for elements equality
                     for (i = 0; i < r1; i++)
                     {
                         for (j = 0; j < c2; j++)
@@ -95,6 +100,12 @@ namespace Assignment2
         }
     }
 }
+/*input:first matrix elements:1 2 
+                              3 4
+        second matrix elements:1 2
+                               3  4
+   output:matrix can be compared
+          matrices are equal
 
        
     
