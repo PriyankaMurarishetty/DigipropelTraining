@@ -15,11 +15,13 @@ namespace Assignment2
             Console.WriteLine("enter the number of elements into the array to find oddeven");
             n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("enter the input elements:");
+            //initializing array elements
             for (i = 0; i < n; i++)
             {
                 Console.WriteLine("input elements:" + i);
                 arr1[i] = Convert.ToInt32(Console.ReadLine());
             }
+            //checking for odd even 
             for (i = 0; i < n; i++)
             {
                 if (arr1[i] % 2 == 0)
@@ -33,6 +35,7 @@ namespace Assignment2
                     k++;
                 }
             }
+            //displaying odd and even elements
                 Console.WriteLine("Even numbers are:");
                 for(i=0;i<j;i++)
                 {
@@ -51,3 +54,6 @@ namespace Assignment2
         }
     }
 }
+/*input:array elements:{2,44,55,35,4}
+output:even elements:44,2,4
+odd elements:35,55
