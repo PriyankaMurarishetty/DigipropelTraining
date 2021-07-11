@@ -14,6 +14,7 @@ namespace Assignment2
             Console.WriteLine("enter the number of elements into the array to find maxmin");
             n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("enter the elements into the array");
+            //initializing array elements
             for(i=0;i<n;i++)
             {
                 Console.WriteLine("the input elements:");
@@ -22,6 +23,7 @@ namespace Assignment2
             Console.WriteLine(arr1[i]);
             max = arr1[0];
             min = arr1[0];
+            //checking for max and min
             for(i=0;i<n;i++)
             if(arr1[i]>max)
             {
@@ -36,3 +38,6 @@ namespace Assignment2
         }
     }
 }
+/*input:array elements{3,45,0,8,77}
+output:maximum numnber=77
+       minimum number=0
