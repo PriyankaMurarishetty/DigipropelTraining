@@ -23,3 +23,8 @@ namespace Assignment4
 
     }
 }
+/*output:
+Enter the year to check:
+2004
+the entered year is leap year*/
+
