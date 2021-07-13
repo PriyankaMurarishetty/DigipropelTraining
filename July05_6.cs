@@ -45,6 +45,14 @@ namespace Assignment4
         }
     }
 } 
+/*output:
+the number of pages are:
+16
+the number of pages are:
+24
+the number of pages are:
+64                       */
+
   
 
 
