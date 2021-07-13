@@ -53,5 +53,11 @@ namespace Assignment4
             }
         }
     }
+/*output:Hello!
+        Hello!
+       I'm Studying
+      My age is :21
+      Hello!
+      I'm explaining */
 
 
