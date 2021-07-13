@@ -29,6 +29,15 @@ namespace Assignment4
             {
                 Console.WriteLine("the dates are equal");
             }
+    /*output:
+enter the first date to check
+07-09-2017
+Date {0}:7/9/2017 12:00:00 AM
+enter the second date to check
+05-09-2016
+Date {0}:5/9/2016 12:00:00 AM
+5/9/2016 12:00:00 AM comes before7/9/2017 12:00:00 AM*/
+
 
 
             
