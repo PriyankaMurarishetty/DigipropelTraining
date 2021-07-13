@@ -19,3 +19,9 @@ namespace Assignment4
         }
     }
 }
+/*output:enter the starting range to check
+0
+enter the end range to check
+100
+Random number:96  */
+
