@@ -63,3 +63,17 @@ namespace Assignment4
         }
     }
 }
+/*output:Directory Already Exists
+Directory Nmae:Example
+PathD:\Example
+Created on7/13/2021 10:15:05 AM
+Last Accessed7/13/2021 10:15:05 AM
+File Create on:7/13/2021 10:15:05 AM
+Directory NameD:\Example
+FullName:D:\Example\test.txt
+File is LastAccessed on :7/13/2021 10:16:08 AM     */
+
+
+
+
+
