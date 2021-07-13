@@ -54,6 +54,13 @@ namespace Assignment4
         }
     }
 }
+/*output:john
+        sana
+        priya
+Hello! My name is :john
+Hello! My name is :sana
+Hello! My name is :priya*/
+
 
 
 
